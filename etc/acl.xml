@@ -1,0 +1,13 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <resource id="Magento_Backend::admin">
+                    <resource id="Moreira_LowStock::config" title="Configurações"/>
+         
+                <resource id="Moreira_LowStock::main" title ="LowStock" sortOrder ="20">
+                    <resource id="Moreira_LowStock::send_report" title="Enviar Relatório para WhatsApp"/>
+                </resource>
+            </resource>
+        </resources>
+    </acl>
+</config>

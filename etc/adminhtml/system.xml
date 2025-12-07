@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="lowstock" translate="label" type="text" sortOrder="5" showInDefault ="1" showInWebsite ="1" showInStore ="1">
+        <resource>Moreira_LowStock::config</resource>
+        <tab>general</tab>
+            <label>Low Stock</label>
+            <group id="general" translate="label"  sortOrder="900" showInDefault ="1" showInWebsite ="1" showInStore ="1">
+                <label>Configurações</label>
+                <field id="whatsapp" translate="label" type="text" sortOrder="5" showInDefault ="1" showInWebsite ="1" showInStore ="1">
+                    <label>Número do WhatsApp</label>
+                </field>
+                <field id="limit" translate="label" type="text" sortOrder="10" showInDefault ="1" showInWebsite ="1" showInStore ="1">
+                    <label>Limite de Produtos por relatório</label>
+                </field>
+                <field id="threshold" translate="label" type="text" sortOrder="20" showInDefault ="1" showInWebsite ="1" showInStore ="1">
+                    <label>Número minimo do estoque</label>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
