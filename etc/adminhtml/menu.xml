@@ -1,0 +1,6 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Moreira_LowStock::menu" title="LowStock" module="Moreira_LowStock" sortOrder="900" resource="Moreira_LowStock::main" parent="Magento_Backend::content"/>
+        <add id="Moreira_LowStock::send_report" title="Enviar relatório para WhatsApp" module="Moreira_LowStock" sortOrder="10" parent="Moreira_LowStock::menu" action="moreira_lowstock/report/send" resource="Moreira_LowStock::send_report"/>
+    </menu>
+</config>
