@@ -20,7 +20,8 @@ bin/magento setup:di:compile
 
 Acesse o painel do Magento
 Vá em:
-Stores -> Configuration -> General -> Estoque Minimo
+Stores -> Configuration -> General -> Low Stock
+
 Preenche as configurações do módulo
 
 Para enviar o relatório acesse:
